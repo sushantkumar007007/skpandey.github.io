@@ -1,0 +1,341 @@
+# =====================================================================
+#  PUBLICATIONS — newest at the TOP (the page groups them by year).
+#
+#  To add a paper: copy this block, paste it at the top, fill it in.
+#  Delete any line you don't need (only title, authors, year, type,
+#  venue_short are required).
+#
+#  - title: "Paper title"
+#    authors: "A. Author, S.K. Pandey, B. Author"
+#    year: 2027
+#    type: conference          # conference | journal | thesis | preprint
+#    venue_short: "ICSE 2027"  # shown in bold
+#    venue: "IEEE/ACM International Conference on Software Engineering"  # shown in italics
+#    details: "pp. 1-12"       # volume/pages (optional)
+#    note: "Industry Track"    # small label (optional)
+#    doi: "https://doi.org/10.xxxx/xxxxx"
+#    pdf: ""                   # link to a PDF (optional)
+#    arxiv: ""                 # arXiv link (optional)
+#    code: ""                  # replication package / GitHub (optional)
+#    selected: true            # true = also shown on the home page
+#
+#  "S.K. Pandey" is automatically shown in bold.
+# =====================================================================
+
+# ----------------------------- 2026 ---------------------------------
+- title: "DepWareTrans: Dependency-Aware Incremental Repository Migration across Co-executable Languages"
+  authors: "S. Chand, A. Pretschner, S. Haupt, D. Zhu, S.K. Pandey"
+  year: 2026
+  type: conference
+  venue_short: "ASE 2026"
+  venue: "41st IEEE/ACM International Conference on Automated Software Engineering"
+  note: "Industry Track"
+  selected: true
+
+- title: "LegacyWorld: Atomicity-Aware Evaluation of GUI Agents for Legacy Workflows"
+  authors: "T. Reintjes, S. Chand, D. Zhu, S.K. Pandey, A. Pretschner"
+  year: 2026
+  type: conference
+  venue_short: "ICSME 2026"
+  venue: "42nd IEEE International Conference on Software Maintenance and Evolution"
+  note: "Industry Track"
+  selected: true
+
+- title: "Cross-Language Semantic Clone Detection with Instruction Fine-Tuned LLMs"
+  authors: "O.M. Hassane, S.K. Pandey, S. Chand, M. Staron"
+  year: 2026
+  type: conference
+  venue_short: "SEAA 2026"
+  venue: "52nd Euromicro Conference on Software Engineering and Advanced Applications"
+  details: "pp. 127–144"
+
+- title: "Data Leakage in Automotive Perception: Practitioners' Insights"
+  authors: "M.A.A. Babu, S.K. Pandey, D. Durisic, A. Bálint, M. Staron"
+  year: 2026
+  type: conference
+  venue_short: "CAIN 2026"
+  venue: "5th IEEE/ACM International Conference on AI Engineering – Software Engineering for AI"
+  arxiv: "https://arxiv.org/abs/2604.06899"
+
+- title: "Evaluating Train–Test Data Leakage in Automotive Image Datasets"
+  authors: "M.A.A. Babu, M. Staron, A. Bálint, D. Durisic, S.K. Pandey"
+  year: 2026
+  type: conference
+  venue_short: "IV 2026"
+  venue: "IEEE Intelligent Vehicles Symposium"
+  details: "pp. 201–207"
+
+- title: "Evaluating the Robustness and Generalizability of D-LeDe Using Multiple Automotive Datasets"
+  authors: "M.A.A. Babu, M. Staron, D. Durisic, A. Bálint, S.K. Pandey"
+  year: 2026
+  type: journal
+  venue_short: "SN CS"
+  venue: "SN Computer Science"
+  details: "7(7), 704"
+
+# ----------------------------- 2025 ---------------------------------
+- title: "Design Pattern Recognition: A Study of Large Language Models"
+  authors: "S.K. Pandey, S. Chand, J. Horkoff, M. Staron, M. Ochodek, D. Durisic"
+  year: 2025
+  type: journal
+  venue_short: "EMSE"
+  venue: "Empirical Software Engineering"
+  details: "30(3), 69"
+  selected: true
+
+- title: "Automated Extract Method Refactoring with Open-Source LLMs: A Comparative Study"
+  authors: "S. Chand, M. Kilic, R. Würsching, S.K. Pandey, A. Pretschner"
+  year: 2025
+  type: conference
+  venue_short: "AIware 2025"
+  venue: "2nd IEEE/ACM International Conference on AI-powered Software"
+  selected: true
+
+- title: "How Well Small Language Models Can Be Adapted for Software Maintenance and Refactoring Tasks"
+  authors: "G. Asvydyte, S.K. Pandey, S. Chand"
+  year: 2025
+  type: conference
+  venue_short: "PROFES 2025"
+  venue: "International Conference on Product-Focused Software Process Improvement"
+
+- title: "DS-Generator: Generating Software Metrics for Subsequent Versions of a Software System"
+  authors: "S.K. Pandey, A. Agarwal, A. Ranjan, A.K. Tripathi"
+  year: 2025
+  type: conference
+  venue_short: "EASE 2025"
+  venue: "29th International Conference on Evaluation and Assessment in Software Engineering"
+
+- title: "D-LeDe: A Data Leakage Detection Method for Automotive Perception Systems"
+  authors: "M.A.A. Babu, S.K. Pandey, D. Durisic, A.C. Koppisetty, M. Staron"
+  year: 2025
+  type: conference
+  venue_short: "VEHITS 2025"
+  venue: "11th International Conference on Vehicle Technology and Intelligent Transport Systems"
+  selected: true
+
+- title: "Cirrus++: Scalable 2D Annotations for Multi-modal AD Research"
+  authors: "M.A.A. Babu, S.K. Pandey, D. Durisic, A. Bálint, M. Staron"
+  year: 2025
+  type: conference
+  venue_short: "QUATIC 2025"
+  venue: "International Conference on the Quality of Information and Communications Technology"
+
+- title: "SDC-Estimator: An Effectual Software Defect Count Estimation Technique for the Upcoming Version of Software Project"
+  authors: "S.K. Pandey, A.K. Tripathi"
+  year: 2025
+  type: journal
+  venue_short: "ISSE"
+  venue: "Innovations in Systems and Software Engineering"
+  details: "21(4), 1363–1398"
+
+- title: "Is Deep Learning Good Enough for Software Defect Prediction?"
+  authors: "S.K. Pandey, A. Haldar, A.K. Tripathi"
+  year: 2025
+  type: journal
+  venue_short: "ISSE"
+  venue: "Innovations in Systems and Software Engineering"
+  details: "21(2), 501–516"
+
+# ----------------------------- 2024 ---------------------------------
+- title: "Comparing Programming Language Models for Design Pattern Recognition"
+  authors: "S.K. Pandey, M. Staron, J. Horkoff, M. Ochodek, D. Durisic"
+  year: 2024
+  type: conference
+  venue_short: "ICSA-C 2024"
+  venue: "21st IEEE International Conference on Software Architecture Companion"
+
+- title: "Brain-Inspired Software Architecture: An Adaptive Neural Network Systems"
+  authors: "A. Ranjan, S.K. Pandey, A.K. Singh, T. Pradhan"
+  year: 2024
+  type: conference
+  venue_short: "ICSA-C 2024"
+  venue: "21st IEEE International Conference on Software Architecture Companion"
+
+- title: "Impact of Image Data Splitting on the Performance of Automotive Perception Systems"
+  authors: "M.A.A. Babu, S.K. Pandey, D. Durisic, A.C. Koppisetty, M. Staron"
+  year: 2024
+  type: conference
+  venue_short: "SWQD 2024"
+  venue: "16th International Conference on Software Quality"
+  details: "pp. 91–111"
+
+- title: "Exploring Image Similarity-Based Splitting Techniques in Automotive Perception Systems"
+  authors: "M.A.A. Babu, S.K. Pandey, D. Durisic, A.C. Koppisetty, M. Staron"
+  year: 2024
+  type: conference
+  venue_short: "QUATIC 2024"
+  venue: "17th International Conference on the Quality of Information and Communications Technology"
+
+- title: "Improving Image Data Leakage Detection in Automotive Software"
+  authors: "M.A.A. Babu, S.K. Pandey, D. Durisic, A.C. Koppisetty, M. Staron"
+  year: 2024
+  type: preprint
+  venue_short: "arXiv"
+  venue: "arXiv preprint arXiv:2410.23312"
+  arxiv: "https://arxiv.org/abs/2410.23312"
+
+# ----------------------------- 2023 ---------------------------------
+- title: "TransDPR: Design Pattern Recognition Using Programming Language Models"
+  authors: "S.K. Pandey, M. Staron, J. Horkoff, M. Ochodek, N. Mucci, D. Durisic"
+  year: 2023
+  type: conference
+  venue_short: "ESEM 2023"
+  venue: "ACM/IEEE International Symposium on Empirical Software Engineering and Measurement"
+
+- title: "Comparing Word-Based and AST-Based Models for Design Pattern Recognition"
+  authors: "S. Chand, S.K. Pandey, J. Horkoff, M. Staron, M. Ochodek, D. Durisic"
+  year: 2023
+  type: conference
+  venue_short: "PROMISE 2023"
+  venue: "19th International Conference on Predictive Models and Data Analytics in Software Engineering"
+
+- title: "Design Patterns Understanding and Use in the Automotive Industry: An Interview Study"
+  authors: "S.K. Pandey, S. Chand, J. Horkoff, M. Staron"
+  year: 2023
+  type: conference
+  venue_short: "PROFES 2023"
+  venue: "International Conference on Product-Focused Software Process Improvement"
+
+- title: "Data Handling for Assuring Production Quality of Image Intensive Autonomous Drive Systems: An Industrial Case Study"
+  authors: "S.K. Pandey, V. Mosin, D. Durisic, A.C. Koppisetty, M. Staron"
+  year: 2023
+  type: journal
+  venue_short: "JSEAS"
+  venue: "Journal of Software Engineering for Autonomous Systems"
+  details: "1(1–2), 29–47"
+
+- title: "DBDNN-Estimator: A Cross-Project Number of Fault Estimation Technique"
+  authors: "S.K. Pandey, A.K. Tripathi"
+  year: 2023
+  type: journal
+  venue_short: "SN CS"
+  venue: "SN Computer Science"
+  details: "5(1), 29"
+
+- title: "Cross-Project Setting Using Deep Learning Architectures in Just-in-Time Software Fault Prediction: An Investigation"
+  authors: "S.K. Pandey, A.K. Tripathi"
+  year: 2023
+  type: conference
+  venue_short: "AST 2023"
+  venue: "IEEE/ACM International Conference on Automation of Software Test"
+
+- title: "Defect Backlog Size Prediction for Open-Source Projects with the Autoregressive Moving Average and Exponential Smoothing Models"
+  authors: "P.A. Sielicka, S.K. Pandey, M. Staron, M. Ochodek"
+  year: 2023
+  type: conference
+  venue_short: "FedCSIS 2023"
+  venue: "18th Conference on Computer Science and Intelligence Systems"
+
+# ----------------------------- 2022 ---------------------------------
+- title: "Comparing Input Prioritization Techniques for Testing Deep Learning Algorithms"
+  authors: "V. Mosin, M. Staron, D. Durisic, F.G. de Oliveira Neto, S.K. Pandey, et al."
+  year: 2022
+  type: conference
+  venue_short: "SEAA 2022"
+  venue: "48th Euromicro Conference on Software Engineering and Advanced Applications"
+
+- title: "An Adaptive Approach for Defect Prediction using Dynamic Classifiers Selection"
+  authors: "A. Upadhyay, S.K. Pandey, A.K. Tripathi"
+  year: 2022
+  type: conference
+  venue_short: "ICKECS 2022"
+  venue: "International Conference on Knowledge Engineering and Communication Systems"
+
+# ----------------------------- 2021 ---------------------------------
+- title: "Machine Learning Based Methods for Software Fault Prediction: A Survey"
+  authors: "S.K. Pandey, R.B. Mishra, A.K. Tripathi"
+  year: 2021
+  type: journal
+  venue_short: "ESWA"
+  venue: "Expert Systems with Applications"
+  details: "172, 114595"
+  selected: true
+
+- title: "DNNAttention: A Deep Neural Network and Attention Based Architecture for Cross Project Defect Number Prediction"
+  authors: "S.K. Pandey, A.K. Tripathi"
+  year: 2021
+  type: journal
+  venue_short: "KBS"
+  venue: "Knowledge-Based Systems"
+  details: "233, 107541"
+
+- title: "An Empirical Study toward Dealing with Noise and Class Imbalance Issues in Software Defect Prediction"
+  authors: "S.K. Pandey, A.K. Tripathi"
+  year: 2021
+  type: journal
+  venue_short: "Soft Computing"
+  venue: "Soft Computing"
+  details: "25(21), 13465–13492"
+
+- title: "Class Imbalance Issue in Software Defect Prediction Models by Various Machine Learning Techniques: An Empirical Study"
+  authors: "S.K. Pandey, A.K. Tripathi"
+  year: 2021
+  type: conference
+  venue_short: "ICSCC 2021"
+  venue: "8th International Conference on Smart Computing and Communications"
+
+- title: "Observations on Software Defect Prediction"
+  authors: "S.K. Pandey"
+  year: 2021
+  type: thesis
+  venue_short: "PhD Thesis"
+  venue: "Indian Institute of Technology (BHU) Varanasi"
+
+# ----------------------------- 2020 ---------------------------------
+- title: "BPDET: An Effective Software Bug Prediction Model Using Deep Representation and Ensemble Learning Techniques"
+  authors: "S.K. Pandey, R.B. Mishra, A.K. Tripathi"
+  year: 2020
+  type: journal
+  venue_short: "ESWA"
+  venue: "Expert Systems with Applications"
+  details: "144, 113085"
+
+- title: "BCV-Predictor: A Bug Count Vector Predictor of a Successive Version of the Software System"
+  authors: "S.K. Pandey, A.K. Tripathi"
+  year: 2020
+  type: journal
+  venue_short: "KBS"
+  venue: "Knowledge-Based Systems"
+  details: "197, 105924"
+
+- title: "Software Defect Prediction Using K-PCA and Various Kernel-Based Extreme Learning Machine: An Empirical Study"
+  authors: "S.K. Pandey, D. Rathee, A.K. Tripathi"
+  year: 2020
+  type: journal
+  venue_short: "IET Software"
+  venue: "IET Software"
+  details: "14(7), 768–782"
+
+# ----------------------------- 2019 ---------------------------------
+- title: "Design and Performance Analysis of Various Feature Selection Methods for Anomaly-Based Techniques in Intrusion Detection System"
+  authors: "S.K. Pandey"
+  year: 2019
+  type: journal
+  venue_short: "Security and Privacy"
+  venue: "Security and Privacy (Wiley)"
+  details: "e56"
+
+- title: "An Anomaly Detection Technique-Based Intrusion Detection System for Wireless Sensor Network"
+  authors: "S.K. Pandey"
+  year: 2019
+  type: journal
+  venue_short: "IJWMC"
+  venue: "International Journal of Wireless and Mobile Computing"
+  details: "17(4), 323–333"
+
+# ----------------------------- 2018 ---------------------------------
+- title: "Software Bug Prediction Prototype Using Bayesian Network Classifier: A Comprehensive Model"
+  authors: "S.K. Pandey, R.B. Mishra, A.K. Tripathi"
+  year: 2018
+  type: conference
+  venue_short: "Procedia CS"
+  venue: "Procedia Computer Science"
+  details: "132, 1412–1421"
+
+# ----------------------------- 2016 ---------------------------------
+- title: "Intrusion Detection System Using Anomaly Technique in Wireless Sensor Network"
+  authors: "S.K. Pandey, P. Kumar, J.P. Singh, M.P. Singh"
+  year: 2016
+  type: conference
+  venue_short: "ICCCA 2016"
+  venue: "International Conference on Computing, Communication and Automation"

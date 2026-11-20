@@ -1,0 +1,6 @@
+<li class="pub" data-type="{{ pub.type }}">
+  <div class="pub-title">{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</div>
+  <div class="pub-authors">{{ pub.authors | replace: "S.K. Pandey", "<strong>S.K. Pandey</strong>" }}</div>
+  <div class="pub-venue"><b>{{ pub.venue_short }}</b>{% if pub.venue and pub.venue != pub.venue_short %} · <i>{{ pub.venue }}</i>{% endif %}{% if pub.details %}, {{ pub.details }}{% endif %}{% if pub.note %} <span class="tag">{{ pub.note }}</span>{% endif %}</div>
+  {% if pub.doi or pub.pdf or pub.arxiv or pub.code %}<div class="pub-links">{% if pub.doi %}<a href="{{ pub.doi }}">DOI</a>{% endif %}{% if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}{% if pub.arxiv %}<a href="{{ pub.arxiv }}">arXiv</a>{% endif %}{% if pub.code %}<a href="{{ pub.code }}">Code</a>{% endif %}</div>{% endif %}
+</li>

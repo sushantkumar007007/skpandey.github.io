@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<section class="intro">
+  <img class="portrait" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Portrait of {{ site.name }}" width="240" height="300">
+  <div class="intro-text">
+    <h1>{{ site.name }}</h1>
+    <p class="role">{{ site.position }}<br>{{ site.department }}<br>{{ site.university }}</p>
+    <p class="contact-line"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p class="profile-links">{% for l in site.links %}<a href="{{ l.url }}">{{ l.name }}</a>{% endfor %}</p>
+  </div>
+</section>
+
+<section class="prose about">
+{{ content }}
+</section>
+
+<section>
+  <h2>Recent news</h2>
+  <ul class="news">
+    {% for n in site.data.news limit: 6 %}
+    <li><span class="news-date">{{ n.date }}</span><span class="news-text">{{ n.text | markdownify | remove: "<p>" | remove: "</p>" }}</span></li>
+    {% endfor %}
+  </ul>
+  <p class="more"><a href="{{ '/news/' | relative_url }}">All news →</a></p>
+</section>
+
+<section>
+  <h2>Selected publications</h2>
+  <ol class="pubs">
+    {% for pub in site.data.publications %}{% if pub.selected %}{% include pub-item.html %}{% endif %}{% endfor %}
+  </ol>
+  <p class="more"><a href="{{ '/publications/' | relative_url }}">Full publication list →</a></p>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p class="address">{% for line in site.address %}{{ line }}<br>{% endfor %}<a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</section>

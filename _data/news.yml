@@ -1,0 +1,42 @@
+# =====================================================================
+#  NEWS — newest item at the TOP.
+#  To add news: copy the 3 lines below, paste them at the top, edit, commit.
+#
+#  - date: "Dec 2026"
+#    text: "Your news here. Links work like this: [link text](https://example.org)."
+#
+#  The home page shows the first 6 items; the News page shows all of them.
+# =====================================================================
+
+- date: "Nov 2026"
+  text: "Starting **1 January 2027**, I will supervise a new Engineering Doctorate (EngD) project with **Kroes Marine Projects**."
+
+- date: "2026"
+  text: "Paper **DepWareTrans: Dependency-Aware Incremental Repository Migration across Co-executable Languages** accepted at **ASE 2026** (Industry Track)."
+
+- date: "2026"
+  text: "Paper **LegacyWorld: Atomicity-Aware Evaluation of GUI Agents for Legacy Workflows** accepted at **ICSME 2026** (Industry Track)."
+
+- date: "2026"
+  text: "Serving on the organizing committee of **SCAM 2026** in Benevento, Italy."
+
+- date: "2026"
+  text: "Paper **Cross-Language Semantic Clone Detection with Instruction Fine-Tuned LLMs** accepted at **SEAA 2026**."
+
+- date: "2026"
+  text: "Two papers on train–test data leakage in automotive perception at **IV 2026** and **CAIN 2026** ([preprint](https://arxiv.org/abs/2604.06899))."
+
+- date: "2026"
+  text: "**Evaluating the Robustness and Generalizability of D-LeDe Using Multiple Automotive Datasets** published in *SN Computer Science*."
+
+- date: "Nov 2025"
+  text: "Completed the **SECV** (Software Enhancement through Code Visualisation) project as project lead."
+
+- date: "2025"
+  text: "**Design Pattern Recognition: A Study of Large Language Models** published in *Empirical Software Engineering*."
+
+- date: "2025"
+  text: "Papers at **PROFES 2025**, **AIware 2025**, **EASE 2025**, **VEHITS 2025** and **QUATIC 2025**."
+
+- date: "Jul 2024"
+  text: "Joined the University of Groningen as Assistant Professor (Tenure Track) in Software Engineering."
