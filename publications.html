@@ -1,0 +1,41 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+<h1 class="page-title">Publications</h1>
+<p class="lead">For citation metrics see <a href="https://scholar.google.com/citations?user=uKkzLVcAAAAJ&hl=en">Google Scholar</a>. My name is shown in bold.</p>
+
+<div class="filters" role="group" aria-label="Filter publications">
+  <button class="filter on" data-filter="all">All</button>
+  <button class="filter" data-filter="journal">Journals</button>
+  <button class="filter" data-filter="conference">Conferences</button>
+  <button class="filter" data-filter="other">Other</button>
+</div>
+
+{% assign years = site.data.publications | map: "year" | uniq %}
+{% for y in years %}
+<section class="year-block">
+  <h2 class="year">{{ y }}</h2>
+  <ol class="pubs">
+    {% for pub in site.data.publications %}{% if pub.year == y %}{% include pub-item.html %}{% endif %}{% endfor %}
+  </ol>
+</section>
+{% endfor %}
+
+<script>
+  document.querySelectorAll('.filter').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var f = btn.dataset.filter;
+      document.querySelectorAll('.filter').forEach(function (b) { b.classList.toggle('on', b === btn); });
+      document.querySelectorAll('.pub').forEach(function (li) {
+        var t = li.dataset.type;
+        var show = f === 'all' || t === f || (f === 'other' && t !== 'journal' && t !== 'conference');
+        li.hidden = !show;
+      });
+      document.querySelectorAll('.year-block').forEach(function (s) {
+        s.hidden = !s.querySelector('.pub:not([hidden])');
+      });
+    });
+  });
+</script>

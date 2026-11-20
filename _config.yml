@@ -1,0 +1,46 @@
+# =====================================================================
+#  SITE SETTINGS — edit the text between the quotes.
+#  After editing this file, the site rebuilds automatically (~1 minute).
+# =====================================================================
+
+title: "Sushant Kumar Pandey"
+name: "Dr. Sushant Kumar Pandey"
+position: "Assistant Professor (Tenure Track)"
+department: "Software Engineering, Bernoulli Institute for Mathematics, Computer Science and Artificial Intelligence"
+university: "University of Groningen, The Netherlands"
+email: "s.k.pandey@rug.nl"
+description: "Sushant Kumar Pandey, Assistant Professor at the University of Groningen. Research in AI for Software Engineering, software engineering for robotics and drone systems, and trustworthy AI."
+
+# Office address (each line is shown on its own line)
+address:
+  - "Bernoulliborg, Room 578"
+  - "Nijenborgh 9"
+  - "9747 AG Groningen"
+  - "The Netherlands"
+
+# Profile links shown under your name (add, remove or reorder freely)
+links:
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?user=uKkzLVcAAAAJ&hl=en"
+  - name: "ORCID"
+    url: "https://orcid.org/0000-0003-1882-2435"
+  - name: "UG Research Portal"
+    url: "https://research.rug.nl/en/persons/sushant-pandey/"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/sushant-kumar-pandey-70403143/"
+  # - name: "GitHub"
+  #   url: "https://github.com/YOUR-USERNAME"
+
+# CV as PDF: upload your file as assets/cv.pdf and change "" to "/assets/cv.pdf"
+cv_pdf: ""
+
+# ---------------------------------------------------------------------
+# Technical settings — no need to change these
+# ---------------------------------------------------------------------
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - README.md
+  - preview.py
